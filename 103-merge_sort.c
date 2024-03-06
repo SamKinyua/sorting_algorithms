@@ -56,7 +56,7 @@ void merge(int *a, int low, int middle, int high, int *buff)
 	while (lo <= middle)
 		buff[i++] = a[lo++];
 
-	while (lm <= high)
+	while (md <= high)
 		buff[i++] = a[md++];
 
 	for (i = low; i <= high; i++)
