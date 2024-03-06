@@ -21,7 +21,7 @@ void quick_sort(int *array, size_t size)
  * @size: size of the array
  * Return: no return
  */
-void _sort(int *a, int low, int high, int size)
+void _qsort(int *a, int low, int high, int size)
 {
 	int p, w, i;
 	int tmp;
