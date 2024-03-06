@@ -5,7 +5,7 @@
  * ascending order using the Selection
  * sort algorithm
  *
- * @array: input array of integers 
+ * @array: input array of integers
  * @size: size of arrray
  * Return: no return
  */
