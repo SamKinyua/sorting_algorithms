@@ -7,7 +7,7 @@
  * @i: first value
  * @j: second value
  *
- * Return: no return
+ * Return: No Return
  */
 void _swap(int *array, int i, int j)
 {
