@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * _swap - swapped 2 values
- * @array: the array for swap him values
- * @i: the first index
- * @j: the second index
- * @r_size: the size constant for print
- * Return: nothing
+ * _swap - swaped 2 values.
+ * @array: the array for swap him values.
+ * @i: First index
+ * @j: Second index
+ * @r_size: The size constant for print
+ * Return: Nothing
  */
 void _swap(int *array, int i, int j, const int r_size)
 {
@@ -71,3 +71,4 @@ void heap_sort(int *array, size_t size)
 		_swap(array, 0, i, r_size);
 		_largest(array, i, 0, r_size);
 	}
+}
