@@ -2,7 +2,7 @@
 /**
  * quick_sort- function that sorts an array of
  * integers in ascending order using the
- * Quicksort algorithm
+ * quick sort algorithm
  *
  * @array: input array
  * @size: size of the array
